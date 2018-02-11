@@ -9,8 +9,6 @@ public class MainActivity extends AppCompatActivity {
     int c;
 
     int b;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         b=1;
         for (int i=1;i<20;i++){
             System.out.println("Whats up");
+        }
+
+        for (int i=0;i<10;i++){
+            System.out.println("HI");
         }
 
     }
